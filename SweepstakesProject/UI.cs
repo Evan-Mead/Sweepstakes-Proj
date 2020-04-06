@@ -27,10 +27,5 @@ namespace SweepstakesProject
             Console.WriteLine("Please enter your e-mail address.");
             return Console.ReadLine();
         }
-
-        public static int ContestantRegistrationNumber()
-        {
-
-        }
     }
 }

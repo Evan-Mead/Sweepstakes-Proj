@@ -8,8 +8,26 @@ namespace SweepstakesProject
 {
     public class Sweepstakes
     {
+        private Dictionary<int, Contestant> contestants;
+        private string name;
+        public string Name;
+        
+        public Sweepstakes(string name)
+        {
+            this.name = name;
+        }
 
-        public void CreateMarketingFirmWithManager()
+        public void RegisterContestant(Contestant contestant)
+        {
+
+        }
+
+        public Contestant PickWinner()
+        {
+
+        }
+
+        public void PrintContestantInfo(Contestant contestant)
         {
 
         }
