@@ -8,7 +8,7 @@ namespace SweepstakesProject
 {
     public static class UI
     {
-        public static int contestantNumber = n;
+        public static int contestantNumber = 0;
 
         public static string ContestantFirstName()
         {
@@ -22,10 +22,17 @@ namespace SweepstakesProject
             return Console.ReadLine();
         }
 
-        public static string CustomerEmail()
+        public static string ContestantEmail()
         {
             Console.WriteLine("Please enter your e-mail address.");
             return Console.ReadLine();
+        }
+
+        public static int ContestantRegistrationNumber()
+        {
+            contestantNumber = +1;
+            Console.WriteLine("Yor registration number is " + contestantNumber);
+            return contestantNumber;
         }
     }
 }
