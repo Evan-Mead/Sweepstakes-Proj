@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace SweepstakesProject
 {
-    class Sweepstakes
+    public class Sweepstakes
     {
+
+        public void CreateMarketingFirmWithManager()
+        {
+
+        }
     }
 }
