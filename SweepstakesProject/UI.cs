@@ -34,5 +34,27 @@ namespace SweepstakesProject
             Console.WriteLine("Yor registration number is " + contestantNumber);
             return contestantNumber;
         }
+
+        public static string ManagerType()
+        {
+            bool type = false;
+            while (!type)
+            {
+                Console.WriteLine("Would you like to manage the Sweepstakes in a stack or queue?");
+                string choice = Console.ReadLine();
+
+                if (choice == "stack" || choice == "queue")
+                {
+                    type = true;
+                    return choice;
+                }
+                else
+                {
+                    Console.WriteLine("Please try again. Type stack or queue.");
+                    type = false;
+                }
+            }
+            return null;
+        }
     }
 }

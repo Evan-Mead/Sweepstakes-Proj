@@ -12,9 +12,13 @@ namespace SweepstakesProject
 
         public MarketingFirm(ISweepstakesManager manager)
         {
-
+            this.manager = manager;
         }
 
+        public void SelectManager()
+        {
+            string managerSelection = UI.ManagerType();
+        }
         public void CreateSweepstake()
         {
 
