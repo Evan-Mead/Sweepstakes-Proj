@@ -35,6 +35,7 @@ namespace SweepstakesProject
 
         public void CreateSweepstake()
         {
+            Sweepstakes sweepstakes = new Sweepstakes();
 
         }
     }
