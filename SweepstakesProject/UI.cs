@@ -50,7 +50,7 @@ namespace SweepstakesProject
                 }
                 else
                 {
-                    Console.WriteLine("Please try again. Type stack or queue.");
+                    Console.WriteLine("Please try again. Type {0}stack{0} or {0}queue{0}.", Convert.ToChar(34));
                     type = false;
                 }
             }

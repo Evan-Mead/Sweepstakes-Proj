@@ -18,7 +18,21 @@ namespace SweepstakesProject
         public void SelectManager()
         {
             string managerSelection = UI.ManagerType();
+
+            if (managerSelection == "stack")
+            {
+                manager = new SweepstakesStackManager();
+            }
+            else if (managerSelection == "queue")
+            {
+                manager = new SweepstakesQueueManager();
+            }
+            else
+            {
+                return;
+            }
         }
+
         public void CreateSweepstake()
         {
 
