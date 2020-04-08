@@ -35,7 +35,9 @@ namespace SweepstakesProject
 
         public void CreateSweepstake()
         {
-            Sweepstakes sweepstakes = new Sweepstakes();
+
+            Sweepstakes newSweepstakes = new Sweepstakes();
+            manager.InsertSweepstakes(newSweepstakes);
 
         }
     }

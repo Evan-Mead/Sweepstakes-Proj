@@ -13,9 +13,9 @@ namespace SweepstakesProject
         public string Name;
         public int winnersNumber;
         
-        public Sweepstakes(string name)
+        public Sweepstakes()
         {
-            this.name = name;
+            this.Name = name;
         }
 
         public void RegisterContestant(Contestant contestant)
